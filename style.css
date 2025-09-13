@@ -49,7 +49,7 @@ display: flex;
     margin-bottom: 5px;
 }
 .first-button{
-    background-color: rgb(15, 170, 247);
+    background-color: #3882f6;
     color: white;
     padding: 10px 20px;
     border: none; 
@@ -57,8 +57,39 @@ display: flex;
   font-size: 16px; 
   border-radius: 8px;
 }
-img{
-    width: auto;
-    height: 200px;
+.img1{
+    max-width: 550px;
+    max-height: 200px;
     padding: 0px 20px;
 }
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.second-container-content{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    }
+    
+    .reviews{
+          display: flex;  
+         flex-wrap: wrap; 
+         justify-content: center; 
+         max-width: 300px
+
+    }
+    .review-photo{
+         height: 350px;
+        border: #3882f6 5px solid;
+    }
+    .second-container-title{
+font-size: 36px;
+font-weight: 900;
+color: #1f2937;
+margin: 30px;
+    }
