@@ -166,3 +166,18 @@ margin-right: 30px;
         font-size: 18px;
     color: #F9FAF8
 }
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 40px;
+}
+.footer-container-content{
+    color:#F9FAF8;
+    font-size: 20px;
+}
+.redirect{
+  color: inherit;  
+  text-decoration: none; 
+}
